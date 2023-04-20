@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*CONTAINER*/
+
+.container{
+display:flex;
+flex-direction: column;
+width: 98.8vw;
+height: 150vh;
+
+}
+
+/*Aqui começao HEADER*/
+header{ 
+    display: flex;
+    background-color:#ff914d;
+    height: 10%;  
+    align-items:center;
+    position: sticky;
+    top:0;
+    font-size: 16px; 
+    justify-content:space-around; 
+        
+ } 
+
+#imgLogo img{
+    height: 10vh;
+}
+#imgLogo{
+    width: 10%;
+}
+.menuOpcoes{
+    display: flex;
+    width: 50%;
+    height: 8%;
+    gap: 40px;
+    align-items: center;
+    justify-content:left;
+}
+.btnLogin{
+    display: flex;
+    width:40px;
+    justify-content:right;
+    /* align-items: center; */
+}
+/* main{
+    height:87%;
+} */
+button{
+   height: 10px;
+   width: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+section{
+    height: 110vh;
+    width: 100%;
+}
+.img1{
+    background-image: url(./midia/1.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(./midia/7.2.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.img3{
+   
+    background-image: url(./midia/44444.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    padding: 75px 0 0 750px;
+}
+.img4{
+    background-image: url(./midia/2222.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url(./midia/pexels-sora-shimazaki-5935744.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+}
+#cartaoCredito{
+    width: 40%;
+    height: 50%;
+    border: 2px solid salmon;
+    
+}
+#fotoCartaoCredito{
+    
+    width: 54%;
+    height: 80%;
+    background-image: url(./midia/4.jpg);
+    background-size:55vh ;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgb(100, 70, 70);
+}
+#listaInformacao{
+    font-size: 30px;
+    color: rgb(231, 119, 15);
+
+}
+#listaInformacao2{
+    font-size: 30px;
+    color: rgb(231, 119, 15);
+
+}    
+
+/*Aqui começao FOOTER*/
+  
+footer{
+    background-color: #ff914d;
+    color: white;
+    height: 60px; 
+    padding: 15px 0;   
+    width: 100%;
+    font-size: 20px;
+    
+    
+}
+ footer p{   
+    text-align: center; 
+    margin-bottom: 8px;
+    color: rgb(33, 33, 115);
+}
+  footer a{
+    text-align: center;
+    color: rgb(33, 33, 115);
+}
+.footerIcones{
+    text-align: center;
+    
+}
+.icone{
+    width: 18px;
+    height: 18px;  
+}
+.icone-git{
+    width: 20px;
+    height: 20px;
+}
+  
